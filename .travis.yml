@@ -28,4 +28,6 @@ deploy:
       secure: BVbTrhDPh3t7FAhYN97v3sH6aP5qj8oG2+0cxWxXZhTf2/Ih508YPEBLGcvx4/LhjkUZCy/X3Ewqg0G0AZAJSZYgSruuUtLIFeTSs0VkV/Kcxvrn4ejlPQQ+cLaxi1xcmZPwRUvJNyH2ZdliwJ7ZVrB9kkbr86Qfmvkj2BbjobyCtu6peq2GgzqSHVEkqnBZx3Ycb23tqvRwuz2satj0UkAfOcugq0rnGhGCurOa9DJ1718Gt8AzFNiNj2D4r3dTFlqX93LRf8/B0H3S3sABwZFqil1bW1/R0gv4r7wppX6+mDAgHQwwQm4Xvp2BPinhE9OTePIA6t+2VxsyGPqOb+zrs/eQpLZwdvbFYylFjEBsrnN5o8vZ2m4rrf6hQMnQJ6+vO77n8Zpe4z0zMh+FVWo7p7Ozg9jin8FOMkUyIL1Ga+TUldqkzKNJMiDINp+EmsIJrIjC0BQwnDpy4KPRsIEgZCf8SMrLmy8yHbOoHQwh5RerfVFD1SOGIM5ORcDVNBz4UtwiDHp0zjmefHap8Aq5A7O7T2nFnE9Vd2sMbYBC7ciMtCYwt1bfkfwzUk7HbhAytWAIftX6zdspn6JES23Z2opjaNJi7Ol8wMud9WiELQ1/Agsu4JDLdQrFAowG1TZ53rXytH0HJ9Uknpa/8tLXNWOul/Pv77bgeDXelZk=
     file: dist.zip
     on:
+      tags: true
       repo: higlass/higlass-pileup
+      branch: master
